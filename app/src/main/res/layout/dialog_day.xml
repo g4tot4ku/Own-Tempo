@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_label"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/inputRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:hint="@string/routine_hint"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/inputDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/distance_hint"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+        <!-- Hours and Minutes inputs for activities like Running, Boxing, Hiking, etc. -->
+        <LinearLayout
+            android:id="@+id/layoutDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/inputDurationHours"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:hint="@string/duration_hours_hint"
+                android:importantForAutofill="no"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/inputDurationMinutes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:hint="@string/duration_minutes_hint"
+                android:importantForAutofill="no"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/inputCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/calories_hint"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notes_hint"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="2" />
+    </LinearLayout>
+</ScrollView>

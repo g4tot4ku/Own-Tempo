@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light palette (the night palette is in values-night/colors.xml) -->
+    <color name="md_primary">#4F46E5</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#E0E7FF</color>
+    <color name="md_on_primary_container">#1E1B6E</color>
+    <color name="md_secondary">#4F46E5</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#E0E7FF</color>
+    <color name="md_on_secondary_container">#1E1B6E</color>
+    <color name="md_surface">#FAFAFC</color>
+    <color name="md_on_surface">#1B1B1F</color>
+    <color name="md_surface_variant">#ECECF3</color>
+    <color name="md_on_surface_variant">#5A5A66</color>
+    <color name="md_outline">#C9C9D6</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E4E4EC</color>
+
+    <!-- Category chip colors: a category takes the color at its position in the Category enum -->
+    <color name="category_0">#4F46E5</color>
+    <color name="category_1">#047857</color>
+    <color name="category_2">#B91C1C</color>
+    <color name="category_3">#C2410C</color>
+    <color name="category_4">#A16207</color>
+    <color name="category_5">#0E7490</color>
+    <color name="category_6">#BE185D</color>
+    <color name="category_7">#7C3AED</color>
+    <color name="category_8">#4D7C0F</color>
+    <color name="category_9">#0F766E</color>
+</resources>

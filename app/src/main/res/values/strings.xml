@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Own Tempo</string>
+    <string name="previous_week">Prev</string>
+    <string name="next_week">Next</string>
+    <string name="no_training">No training logged</string>
+    <string name="dialog_title">Training for %1$s</string>
+    <string name="routine_hint">Routine (optional, e.g. Legs)</string>
+    <string name="weight_hint">Weight in kg (every set)</string>
+    <string name="title_with_routine">%1$s · %2$s</string>
+    <string name="weight_value">%1$s kg</string>
+    <string name="reps_value">%1$d reps</string>
+    <string name="value_empty">–</string>
+    <string name="stepper_minus">−</string>
+    <string name="stepper_plus">+</string>
+    <string name="cd_weight_down">Decrease weight</string>
+    <string name="cd_weight_up">Increase weight</string>
+    <string name="cd_reps_down">Decrease reps</string>
+    <string name="cd_reps_up">Increase reps</string>
+    <string name="cd_drag_handle">Reorder exercise</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="notes_hint">Notes (optional)</string>
+    <string name="edit_day">Edit day</string>
+    <string name="delete_day">Delete day</string>
+    <string name="delete">Delete</string>
+    <string name="exercises_title">Exercises</string>
+    <string name="add_exercise">Add exercise</string>
+    <string name="no_exercises">No exercises yet</string>
+    <string name="exercise_dialog_title">Exercise</string>
+    <string name="exercise_name_hint">Exercise name</string>
+    <string name="exercise_time_label">Exercise duration (optional)</string>
+    <string name="time_hours_hint">Hours (hh)</string>
+    <string name="time_minutes_hint">Minutes (mm)</string>
+    <string name="time_seconds_hint">Seconds (ss)</string>
+    <string name="sets_hint">Sets</string>
+    <string name="reps_hint">Reps (every set)</string>
+    <string name="confirm_delete_day_title">Delete this day?</string>
+    <string name="confirm_delete_day_message">The training and all its exercises will be deleted.</string>
+    <string name="confirm_delete_exercise_title">Delete exercise?</string>
+    <string name="confirm_delete_exercise_message">%1$s will be deleted.</string>
+    <string name="error_name_required">Please enter the exercise name</string>
+    <string name="error_number_invalid">Enter a number greater than 0</string>
+
+    <string name="week_range">%1$s - %2$s</string>
+    <string name="streak_current">%1$d-week streak</string>
+    <string name="streak_none">No streak yet</string>
+    <string name="streak_progress">This week: %1$d/%2$d workouts</string>
+    <string name="streak_best">Best streak: %1$d</string>
+
+    <string name="error_database">Something went wrong. Please try again.</string>
+
+    <string name="view_month">Month</string>
+    <string name="view_week">Week</string>
+    <string name="today">Today</string>
+    <string name="today_indicator">(Today)</string>
+
+    <string name="category_label">Category</string>
+    <string name="category_gym">Gym</string>
+    <string name="category_running">Running</string>
+    <string name="category_box">Boxing</string>
+    <string name="category_soccer">Soccer</string>
+    <string name="category_tennis">Tennis</string>
+    <string name="category_hiking">Hiking</string>
+    <string name="category_basketball">Basketball</string>
+    <string name="category_pilates">Pilates</string>
+    <string name="distance_hint">Distance (km)</string>
+    <string name="duration_hint">Time (minutes)</string>
+    <string name="duration_hours_hint">Hours (e.g. 1)</string>
+    <string name="duration_minutes_hint">Minutes (e.g. 30)</string>
+    <string name="calories_hint">Calories (kcal)</string>
+    <string name="metric_distance">Distance: %1$s km</string>
+    <string name="metric_duration">Time: %1$s</string>
+    <string name="metric_calories">Calories: %1$d kcal</string>
+    <string name="set_label">#%1$d</string>
+    <string name="add_set">Add set</string>
+    <string name="remove_set">Remove set</string>
+    <string name="confirm_remove_set_title">Remove last set?</string>
+    <string name="confirm_remove_set_message">Set %1$d of %2$s will be deleted.</string>
+    <string name="error_sets_range">Enter between 1 and 20 sets</string>
+
+    <!-- Day Overview Screen -->
+    <string name="add_workout">Add Workout</string>
+    <string name="add_another_workout">+ Add another workout or routine</string>
+    <string name="no_workouts_day">No workouts logged for this day</string>
+    <string name="cd_add_workout">Add workout</string>
+    <string name="confirm_delete_session_title">Delete workout session?</string>
+    <string name="confirm_delete_session_message">This session and all its exercises will be deleted.</string>
+
+    <!-- Main screen -->
+    <string name="action_today">Today</string>
+    <string name="nav_previous">‹</string>
+    <string name="nav_next">›</string>
+    <string name="cd_previous_period">Previous period</string>
+    <string name="cd_next_period">Next period</string>
+    <string name="menu_settings">Settings</string>
+    <string name="metrics_separator">" · "</string>
+    <string name="value_distance_short">%1$s km</string>
+    <string name="value_duration_short">%1$s</string>
+    <string name="value_calories_short">%1$d kcal</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_appearance_hint">Day mode, night mode, or follow the device automatically.</string>
+    <string name="theme_system">Automatic</string>
+    <string name="theme_light">Day</string>
+    <string name="theme_dark">Night</string>
+    <string name="settings_calendar">Calendar</string>
+    <string name="settings_start_view">Start view</string>
+    <string name="settings_start_view_hint">The view the app opens with. You can switch at any time on the main screen.</string>
+    <string name="settings_training">Training</string>
+    <string name="settings_goal">Weekly goal</string>
+    <string name="settings_goal_hint">Workouts needed in a week to keep your streak.</string>
+    <plurals name="settings_goal_value">
+        <item quantity="one">%d workout per week</item>
+        <item quantity="other">%d workouts per week</item>
+    </plurals>
+    <string name="weight_step_label">Weight step (±)</string>
+    <string name="step_0_5">0.5 kg</string>
+    <string name="step_1">1 kg</string>
+    <string name="step_2_5">2.5 kg</string>
+    <string name="step_5">5 kg</string>
+</resources>

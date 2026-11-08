@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textSetNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="28dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonWeightDown"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cd_weight_down"
+        android:minWidth="36dp"
+        android:minHeight="40dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:text="@string/stepper_minus"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="52dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonWeightUp"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cd_weight_up"
+        android:minWidth="36dp"
+        android:minHeight="40dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:text="@string/stepper_plus"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonRepsDown"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cd_reps_down"
+        android:minWidth="36dp"
+        android:minHeight="40dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:text="@string/stepper_minus"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="52dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonRepsUp"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cd_reps_up"
+        android:minWidth="36dp"
+        android:minHeight="40dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:text="@string/stepper_plus"
+        android:textSize="18sp" />
+</LinearLayout>
